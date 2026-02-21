@@ -1,0 +1,82 @@
+[
+  {
+    "id": "agora-001",
+    "source": "agora",
+    "text": "מתנה! שולחן כתיבה של איקאה MALM במצב מצוין, צבע לבן. איסוף עצמי מרחובות. 050-1234567",
+    "date": "2026-02-20T10:00:00+02:00",
+    "location": "רחובות",
+    "contact": "050-1234567"
+  },
+  {
+    "id": "agora-002",
+    "source": "agora",
+    "text": "Free! Washing machine Samsung, 7kg, works perfectly. Pick up from Haifa, Neve Sha'anan. Call 052-9876543",
+    "date": "2026-02-19T14:30:00+02:00",
+    "location": "חיפה, נווה שאנן",
+    "contact": "052-9876543"
+  },
+  {
+    "id": "agora-003",
+    "source": "agora",
+    "text": "מיקרוגל LG חדש בקופסה, לא נפתח. מתאים לסטודנטים או חיילים. תל אביב, פלורנטין",
+    "date": "2026-02-21T08:00:00+02:00",
+    "location": "תל אביב, פלורנטין",
+    "contact": null
+  },
+  {
+    "id": "tg-001",
+    "source": "telegram",
+    "text": "Giving away a sofa bed in good condition. Dark grey, IKEA FRIHETEN. Located in Beer Sheva near the university. DM me for details.",
+    "date": "2026-02-20T16:45:00+02:00",
+    "location": "Beer Sheva",
+    "contact": null
+  },
+  {
+    "id": "tg-002",
+    "source": "telegram",
+    "text": "ארון בגדים 3 דלתות, עץ אלון, מצב טוב. צריך רכב להעברה. ירושלים, גבעת שאול. 054-5551234",
+    "date": "2026-02-18T11:20:00+02:00",
+    "location": "ירושלים, גבעת שאול",
+    "contact": "054-5551234"
+  },
+  {
+    "id": "tg-003",
+    "source": "telegram",
+    "text": "Moving out! Full kitchen set - pots, pans, dishes, cutlery. All in great shape. Free for anyone who needs it. Petah Tikva center.",
+    "date": "2026-02-21T09:30:00+02:00",
+    "location": "Petah Tikva",
+    "contact": null
+  },
+  {
+    "id": "agora-004",
+    "source": "agora",
+    "text": "מאוורר עומד Dyson, כמעט חדש, שנתיים אחריות. לוד, מרכז העיר. חינם!",
+    "date": "2026-02-19T20:00:00+02:00",
+    "location": "לוד",
+    "contact": null
+  },
+  {
+    "id": "tg-004",
+    "source": "telegram",
+    "text": "Single bed frame + mattress, barely used (3 months). Moving abroad so giving it away. Herzliya Pituach area. WhatsApp 053-7778899",
+    "date": "2026-02-20T07:15:00+02:00",
+    "location": "Herzliya",
+    "contact": "053-7778899"
+  },
+  {
+    "id": "agora-005",
+    "source": "agora",
+    "text": "מנורת שולחן LED + מנורת רצפה, שניהם תקינים. נתניה, קריית נורדאו. להרים מהבית.",
+    "date": "2026-02-17T15:00:00+02:00",
+    "location": "נתניה",
+    "contact": null
+  },
+  {
+    "id": "tg-005",
+    "source": "telegram",
+    "text": "Old but working mini fridge, perfect for a small apartment or dorm. Ashdod, near the mall. Free pickup only.",
+    "date": "2026-02-21T12:00:00+02:00",
+    "location": "Ashdod",
+    "contact": null
+  }
+]
