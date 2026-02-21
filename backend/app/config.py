@@ -1,3 +1,4 @@
+from pydantic import model_validator
 from pydantic_settings import BaseSettings
 
 
@@ -5,6 +6,19 @@ class Settings(BaseSettings):
     # Database
     DATABASE_URL: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/lone_soldier"
     DATABASE_URL_SYNC: str = "postgresql://postgres:postgres@localhost:5432/lone_soldier"
+
+    @model_validator(mode="after")
+    def fix_database_urls(self) -> "Settings":
+        """Railway provides postgresql:// — convert to asyncpg for async driver."""
+        if self.DATABASE_URL.startswith("postgresql://"):
+            self.DATABASE_URL = self.DATABASE_URL.replace(
+                "postgresql://", "postgresql+asyncpg://", 1
+            )
+        if self.DATABASE_URL_SYNC.startswith("postgresql+asyncpg://"):
+            self.DATABASE_URL_SYNC = self.DATABASE_URL_SYNC.replace(
+                "postgresql+asyncpg://", "postgresql://", 1
+            )
+        return self
 
     # Redis
     REDIS_URL: str = "redis://localhost:6379/0"
